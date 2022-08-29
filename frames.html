@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Frames</title>
+ <frameset rows = "15%,80%,5%">
+      <frame name = "title" src = "img.html" frameBorder="0" />
+	<frameset cols="15%,85%">
+		<frame name = "left" src = "left.html" />
+		<frameset rows="5%,95%">
+
+
+ <style>
+
+
+body {
+  font-size: 100%;
+  background: #cedce3;
+			position: fixed;
+			top: 50px; /* Set this to the height of the header */
+			bottom: 50px; /* Set this to the height of the footer */
+			left: 200px; 
+			right: 200px;
+			overflow: auto; 
+			background: #fff;
+}
+
+hidden {
+  display: none;
+}
+
+@-webkit-keyframes 
+autoplay {   /* position of the first slide */
+  0% {
+ left: 0;
+}
+  /* position of the second slide */
+  25% {
+ left: -40.625rem;
+}
+  /* position of the third slide */
+  50% {
+ left: -81.25rem;
+}
+  /* position of the fourth slide */
+  100% {
+ left: -121.875rem;
+}
+}
+@keyframes 
+autoplay {   /* position of the first slide */
+  0% {
+ left: 0;
+}
+  /* position of the second slide */
+  25% {
+ left: -40.625rem;
+}
+  /* position of the third slide */
+  50% {
+ left: -81.25rem;
+}
+  /* position of the fourth slide */
+  100% {
+ left: -121.875rem;
+}
+}
+</style>
+</head>
+<body>
+
+	       		 <frameset cols="20%,20%,20%,20%,20%">
+              			 <frame name = "home" src = "home.html" />
+		    		<frame name = "about" src = "about.html" />
+		   		<frame name = "model" src = "model.html" />
+		       		<frame name = "reg" src = "reg.html" />
+      		 		<frame name = "log" src = "log.html" />
+                    		</frameset>
+			<frameset cols="85%,15%">
+              			<frame name = "center" src = "autoslider.html" />
+				<frame name="right" >
+<p>Trade involves the transfer of goods and services from one person or entity to another, often in exchange for money. Economists refer to a system or network that allows trade as a market.
+</p></frame>
+     			</frameset>
+      		</frameset>
+	</frameset>
+      	<frame name = "contactus" src = "contactus.html" />
+   </frameset>
+      <noframes>
+         <body>Your browser does not support frames.</body>
+     </noframes>
+      
+   </frameset>
+   </body>
+</html>

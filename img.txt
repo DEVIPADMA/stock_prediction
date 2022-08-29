@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+.col-25{
+ float:left;
+ width:25%;
+}
+.col-75{
+ float:right;
+ width:75%;
+}
+</style>
+</head>
+<body bgcolor="black">
+<div class="col-25"><center>
+<img src="https://dz8fbjd9gwp2s.cloudfront.net/articles/616e88f80cf2624414c008e4/gebz4sprintingbull021.jpg" height="70px" width="80px">
+</img>
+</center>
+</div>
+<div class="col-75">
+<font face="Open Sans" size="100px" color="white"><b>&nbsp &nbsp &nbsp &nbsp &nbspSTOCK PREDICTION</b></font>
+</div>
+</body>
+</html>

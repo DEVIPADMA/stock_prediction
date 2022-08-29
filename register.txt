@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>REGISTER FORM</title>
+<style>
+body{
+background-image:url('https://c1.wallpaperflare.com/preview/789/678/389/notebook-pen-eyewear-article.jpg');
+background-repeat:no-repeat;
+background-size:1600px 800px;
+}
+</style>
+<form action="action_page.php" method="post">
+<center> <br><br><br>
+<h1>REGISTER</h1> </br></br></br>
+</center>
+ </head>
+<body>
+<form>
+<center>
+<br> <label for="name"><b>Name</b></label>
+<input type="text" placeholder="Enter Name" name="name" required> </br>
+<br> <label for="email"><b>Email-id</b></label>
+<input type="text" placeholder="Enter Email-id" name="email" required> </br>
+<br> 
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required> </br> 
+<br> <label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required> </br>
+<br> <button type="submit"><a href ="file:///C:/Users/rnafi/Downloads/Modern%20Web%20application/login.html">Sign up</a></button> </br>
+</center>
+</form>
+</body>
+</html>
